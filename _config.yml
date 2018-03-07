@@ -7,7 +7,7 @@ description: >-
   about web programming. From Javascript, Node.js, Express, React, Vue, PHP,
   Laravel, and DevOps stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://risan.github.io"
+url: "http://risan.io"
 
 # Theme related settings
 arwen:
