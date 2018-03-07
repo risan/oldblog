@@ -51,8 +51,6 @@ social: # Used by seo-tag
     - https://www.linkedin.com/in/risanbagja
     - https://plus.google.com/+risanbagja
     - https://github.com/risan
-webmaster_verifications:
-  google: "ID_iAlMNnzqW_rzo-iEuwLTLO9351kHUQ8KpwzH13PA"
 
 # Markdown settings
 markdown: kramdown
