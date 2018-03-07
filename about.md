@@ -2,6 +2,10 @@
 layout: page
 title: About Me
 excerpt: My name is Risan Bagja Pradana, a web developer with four years professional experience. I'm most experienced with Javascript and PHP. Currently, Laravel, Node.js, and React are my favorite stacks.
+image:
+  path: https://res.cloudinary.com/risan/image/upload/v1516997085/work-under-sakura_acfg1j.jpg
+  width: 1200
+  height: 719
 ---
 Hi, my name is Risan Bagja Pradana 👋
 

@@ -15,8 +15,7 @@
       {{ content }}
     </main>
     {% include footer.html %}
-    {% if jekyll.environment == 'production' and site.arwen.google_analytics %}
-      {% include google-analytics.html %}
-    {% endif %}
+    {% include google-analytics.html %}
+    {% include disqus.html %}
   </body>
 </html>
