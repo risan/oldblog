@@ -54,20 +54,16 @@
   }
 
   pre {
-    font-size: .8rem;
-    line-height: 1.25;
+    font-size: .95rem;
     padding: 1rem;
 
     @media (min-width: $screen-md-min) {
-      font-size: .85rem;
-      line-height: 1.5;
+      font-size: 1.02rem;
     }
   }
 
   p {
     code {
-      font-size: 90%;
-      line-height: 1;
       color: #bf616a;
       padding: .1rem .3rem;
       border-radius: 3px;
@@ -78,7 +74,6 @@
     a:visited {
       code {
         color: #3f52e3;
-        //text-decoration: underline;
       }
     }
   }
