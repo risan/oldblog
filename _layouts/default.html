@@ -12,19 +12,11 @@
     {% include header.html %}
     {% include nav.html %}
     <main class="main container">
-      <article class="article">
-        <header class="article-header">
-          <h1 class="article-title">{{ page.title | escape }}</h1>
-          {% if page.date %}
-            <time datetime="{{ page.date | date: '%Y-%m-%d' }}" pubdate class="article-date">
-              {% assign date_format = site.arwen.date_format | default: "%b %-d, %Y" %}
-              {{ page.date | date: date_format }}
-            </time>
-          {% endif %}
-        </header>
-        {{ content }}
-      </article>
+      {{ content }}
     </main>
     {% include footer.html %}
+    {% if jekyll.environment == 'production' and site.arwen.google_analytics %}
+      {% include google-analytics.html %}
+    {% endif %}
   </body>
 </html>

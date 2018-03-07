@@ -14,6 +14,7 @@ arwen:
   header_title: Risan Bagja Pradana
   header_description: Tutorials, coding practice, and software craftsmanship
   date_format: "%d %B %Y"
+  google_analytics: "UA-27136969-12"
   nav_links:
     -
       title: Home
