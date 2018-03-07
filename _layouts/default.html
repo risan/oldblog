@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/css/post.css' | absolute_url }}">
+    {% feed_meta %}
+  </head>
+  <body>
+    {% include header.html %}
+    {% include nav.html %}
+    <main class="main container">
+      <article class="article">
+        <header class="article-header">
+          <h1 class="article-title">{{ page.title | escape }}</h1>
+          {% if page.date %}
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}" pubdate class="article-date">
+              {% assign date_format = site.arwen.date_format | default: "%b %-d, %Y" %}
+              {{ page.date | date: date_format }}
+            </time>
+          {% endif %}
+        </header>
+        {{ content }}
+      </article>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
