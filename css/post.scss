@@ -64,6 +64,7 @@
 
   p {
     code {
+      font-size: 1.1rem;
       color: #bf616a;
       padding: .1rem .3rem;
       border-radius: 3px;
@@ -75,6 +76,18 @@
       code {
         color: #3f52e3;
       }
+    }
+  }
+
+  blockquote {
+    font-size: 1.05rem;
+    color: #7d8d98;
+    padding: $spacer;
+    border-left: 4px solid #eee;
+    background: #f7f7f7;
+
+    p:last-child {
+      margin-bottom: 0;
     }
   }
 }
