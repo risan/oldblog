@@ -65,9 +65,10 @@ liquid:
 sass:
   style: compressed
 exclude:
+  - CNAME
   - Gemfile
   - Gemfile.lock
-  - CNAME
+  - README.md
 
 # Default front matter
 defaults:
