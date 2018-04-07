@@ -23,6 +23,7 @@ Before getting started, we're going to need an [API Key](https://developers.goog
   - [Simulating User's Location on Chrome](#simulating-users-location-on-chrome)
   - [Handling Errors](#handling-errors)
   - [Display User's Location on Google Maps](#display-users-location-on-google-maps)
+  - [Let's Refactor our Code](#lets-refactor-our-code)
 - [Track User's Location with watchPosition](#track-users-location-with-watchposition)
   - [The PositionOptions](#the-positionoptions)
   - [The Final Touch](#the-final-touch)
@@ -370,7 +371,7 @@ map.panTo({
 
 Now if we load our page, both the map and marker should show the retrieved user's location.
 
-#### Let's Refactor our Code
+### Let's Refactor our Code
 
 Our code now is getting a bit messy. Let's refactor it by extracting each step into its own function.
 
