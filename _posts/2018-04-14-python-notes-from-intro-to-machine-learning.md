@@ -10,7 +10,7 @@ image:
 ---
 I rarely use Python at work or for a side project. I only have one repository at Github that is written in Python: [iris-flower-classifier](https://github.com/risan/iris-flower-classifier). And it was written two years ago!
 
-A few days ago I took this free course from Udacity: [Intro to Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120). The machine learning related codes are quite easy to grasp since it simply uses the [scikit-learn](http://scikit-learn.org/) modules. But most of the supporting Python modules that are provided by this course were like a black-box to me. I had no idea how to download a file in Python or what's the difference between list tuple and dictionary.
+A few days ago I took this free course from Udacity: [Intro to Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120). The machine learning related codes are quite easy to grasp since it simply uses the [scikit-learn](http://scikit-learn.org/) modules. But most of the supporting Python modules that are provided by this course were like a black-box to me. I had no idea how to download a file in Python or what's the difference between a list, a tuple and a dictionary.
 
 That's why I decided to read all of the provided Python modules and implement it myself. I ended up refactor most of the code so it's easier to understand: [github.com/risan/intro-to-machine-learning](https://github.com/risan/intro-to-machine-learning).
 
