@@ -22,5 +22,3 @@ I'm from Indonesia but currently resides in Stockholm, Sweden. You can checkout 
 at [risanbagja@gmail.com](mailto:risanbagja@gmail.com).
 
 Thanks for visiting!
-
-![Risan Bagja Pradana](https://res.cloudinary.com/risan/image/upload/v1516997085/work-under-sakura_acfg1j.jpg)
