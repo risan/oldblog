@@ -9,8 +9,8 @@ image:
 ---
 Hi, my name is Risan Bagja Pradana 👋
 
-I'm from Indonesia and I'm passionate about coding and open-source community. I enjoy spending time writing clean, readable, and well-tested code.
+I'm from Indonesia. I'm passionate about coding and open-source community. I enjoy spending time writing clean, readable, and well-tested code.
 
-You can checkout my open-source projects on my [Github profile](https://github.com/risan). You can also reach me at [risanbagja@gmail.com](mailto:risanbagja@gmail.com).
+Checkout my open-source projects on my [Github profile](https://github.com/risan). You can also reach me at [risanbagja@gmail.com](mailto:risanbagja@gmail.com).
 
 Thanks for visiting!
