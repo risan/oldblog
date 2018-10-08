@@ -2,9 +2,9 @@
 title: Installing SQL Server on macOS
 tags: database
 excerpt: Good news, everyone! October last year, SQL Server 2017 for Linux finally went into general availability. We can now install SQL Server on macOS through Docker.
-image_thumb: https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?w=500&q=80
+image_thumb: /img/2018-02-13-installing-sql-server-on-macos/featured-thumb.jpg
 image:
-  path: https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?w=1200&q=80
+  path: /img/2018-02-13-installing-sql-server-on-macos/og.jpg
   width: 1200
   height: 782
 ---
@@ -20,7 +20,7 @@ First, you're going to need Docker. If you haven't had it installed, heads up to
 
 Once it's installed, you'll have a new Docker icon on your menu bar. Click this icon and make sure that Docker is already.
 
-![Docker is running](https://res.cloudinary.com/risan/image/upload/v1518523841/2018-02-13-installing-sql-server-on-macos/docker-is-running.png)
+![Docker is running](/img/2018-02-13-installing-sql-server-on-macos/docker-is-running.png)
 
 ## Running SQL Server Container Image
 

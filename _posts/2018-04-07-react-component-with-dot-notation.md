@@ -2,9 +2,9 @@
 title: React Component with Dot Notation
 tags: react
 excerpt: Learn how to define a React component that is accessible through the dot notation. A common component pattern to show a parent-child relation.
-image_thumb: https://res.cloudinary.com/risan/image/upload/v1523140577/react-small_hvt1j2.png
+image_thumb: /img/react-logo-thumb.png
 image:
-  path: https://res.cloudinary.com/risan/image/upload/v1523140577/react_vl8vjo.png
+  path: /img/react-logo-og.png
   width: 1200
   height: 800
 ---

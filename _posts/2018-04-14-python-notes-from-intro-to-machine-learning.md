@@ -3,9 +3,9 @@ title: Python Notes from Intro to Machine Learning
 tags: python
 date: 2018-04-14 10:00
 excerpt: Notes and code snippets of Python that I've been collecting so far throughout the "Intro to Machine Learning" course.
-image_thumb: https://res.cloudinary.com/risan/image/upload/v1523695338/python-sm_l3j6ya.png
+image_thumb: /img/python-logo-thumb.png
 image:
-  path: https://res.cloudinary.com/risan/image/upload/v1523695338/python_npqims.png
+  path: /img/python-logo-og.png
   width: 1200
   height: 800
 ---

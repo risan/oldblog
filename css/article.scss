@@ -81,6 +81,11 @@
     margin-bottom: 1em;
   }
 
+  img {
+    display: block;
+    width: 100%;
+  }
+
   blockquote {
     background-color: darken($body-background-color, 3%);
     border-left: 5px solid darken($body-background-color, 6%);
@@ -116,6 +121,8 @@
     margin-bottom: 1em;
     white-space: pre;
     word-wrap: normal;
+    color: #fff;
+    background-color: #141414;
   }
 
   p {
