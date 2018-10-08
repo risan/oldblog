@@ -1,44 +1,23 @@
 # General settings
 lang: en
-title: Risan's Blog
-permalink: :title:output_ext
+title: risan.io
 description: >-
-  Risan Bagja Pradana is an experienced Javascript and PHP developer. Tutorials
-  about web programming. From Javascript, Node.js, Express, React, Vue, PHP,
-  Laravel, and DevOps stuff.
+  Programming journal of Risan Bagja Pradana, mostly about PHP, JavaScript,
+  Laravel, Node, Vue, React, Swift and everything in between.
+permalink: :title:output_ext
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://risan.io"
 
 # Theme related settings
-arwen:
-  header_title: Risan Bagja Pradana
-  header_description: Tutorials, coding practice, and software craftsmanship
-  date_format: "%d %B %Y"
-  google_analytics: "UA-27136969-12"
-  disqus_shortname: "risan-io"
-  nav_links:
-    -
-      title: Home
-      url: /
-    -
-      title: About
-      url: /about
-  footer_links:
-    -
-      title: Github
-      url: https://github.com/risan
-    -
-      title: Stackoverflow
-      url: https://stackoverflow.com/users/5138222
-    -
-      title: Medium
-      url: https://medium.com/risan
-    -
-      title: Twitter
-      url: https://twitter.com/risanbagja
-    -
-      title: Email
-      url: "mailto:risanbagja@gmail.com"
+short_desciption: Programming journal of Risan Bagja Pradana
+date_format: "%d %B %Y"
+nav_links:
+  -
+    title: Home
+    url: /
+  -
+    title: About
+    url: /about
 
 # Plugin settings
 author: Risan Bagja Pradana # Used by feed & seo-tag
@@ -48,9 +27,6 @@ social: # Used by seo-tag
   name: Risan Bagja Pradana
   links:
     - https://twitter.com/risanbagja
-    - https://www.facebook.com/risanbagja
-    - https://www.linkedin.com/in/risanbagja
-    - https://plus.google.com/+risanbagja
     - https://github.com/risan
 
 # Markdown settings
@@ -77,7 +53,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "post"
-      comments: true
       image_thumb: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&q=80
       image: # Used by seo-tag plugin
         path: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1200&q=80

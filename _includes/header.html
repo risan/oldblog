@@ -1,8 +1,7 @@
-<header class="header">
-  <div class="header-container container">
-    <a href="{{ '/' | absolute_url }}" class="header-link">
-      <div class="header-title">{{ site.arwen.header_title }}</div>
-    </a>
-    <div class="header-description">{{ site.arwen.header_description }}</div>
-  </div>
+<header class="header container">
+  <a class="header-link" href="{{ '/' | absolute_url }}">
+    <p class="header-title">{{ site.title }}</p>
+  </a>
+  <p>{{ site.short_desciption }}</p>
 </header>
+
