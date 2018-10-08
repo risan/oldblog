@@ -1,89 +1,80 @@
 ---
 ---
-@import "variables";
 @import "base";
 
 .article-link {
   display: block;
-
-  &:first-child {
-    margin-top: 0;
-  }
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-
-  &:link,
-  &:visited {
-    color: $body-color;
-  }
-
-  &:hover,
-  &:active {
-    color: darken($body-color, 15%);
-    text-decoration: none;
-
-    .article-img {
-      transform: scale(1.05);
-    }
-  }
-
-  @media (min-width: $screen-sm-min) {
-    padding: $spacer;
-    border-bottom: 1px solid $body-bg;
-
-    &:last-child {
-      border-bottom: none;
-    }
-  }
+  margin-bottom: 1.5rem;
 }
 
 .article {
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: $screen-sm-min) {
-    flex-direction: row;
+  @media (min-width: 500px) {
+    display: flex;
+    align-items: center;
   }
 }
 
-.article-img-container {
-  width: 100%;
-  height: 180px;
+.article-image-container {
+  margin-bottom: .75rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
   overflow: hidden;
 
-  @media (min-width: $screen-sm-min) {
-    flex: 1 0 45%;
-    height: auto;
-    min-height: 180px;
+  @media (min-width: 420px) {
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  @media (min-width: $screen-md-min) {
-    flex-basis: 35%;
+  @media (min-width: 500px) {
+    margin-bottom: 0;
+    width: 140px;
+    height: 140px;
+    flex: 0 0 auto;
+  }
+
+  @media (min-width: 620px) {
+    width: 180px;
+    height: auto;
   }
 }
 
-.article-img {
+.article-image {
+  display: block;
   width: 100%;
   height: 100%;
-  background: #dadde0;
+  max-height: 180px;
   object-fit: cover;
   transition: transform .3s ease-out;
+
+  @media (min-width: 500px) {
+    max-height: initial;
+  }
 }
 
-.article-title {
-  font-size: 1.17rem;
-  font-weight: 700;
+.article-link:hover {
+  .article-image {
+    transform: scale(1.05);
+  }
 }
 
 .article-body {
-  display: flex;
-  flex-direction: column;
-  padding: $spacer;
+  @media (min-width: 500px) {
+    flex: 1 1 auto;
+    margin-left: 1.5rem;
+  }
+}
+
+.article-title {
+  font-weight: 500;
+  margin-bottom: .25rem;
+}
+
+.article-excerpt {
+  color: $body-color;
+  margin-bottom: .25rem;
 }
 
 .article-footer {
-  color: #a5b3c0;
-  margin: auto 0 0 0;
+  color: lighten($body-color, 35%);
+  font-size: .85rem;
 }
