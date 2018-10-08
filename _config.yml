@@ -1,15 +1,16 @@
 # General settings
 lang: en
-title: risan.io
+title: Programming Journal
 description: >-
-  Programming journal of Risan Bagja Pradana, mostly about PHP, JavaScript,
-  Laravel, Node, Vue, React, Swift and everything in between.
+  The personal blog of Risan Bagja Pradana. The journal of a passionate coder
+  who writes codes for fun. Seriously.
 permalink: :title:output_ext
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://risan.io"
 
 # Theme related settings
-short_desciption: Programming journal of Risan Bagja Pradana
+header_title: risan.io
+header_description: A journal of a passionate coder
 date_format: "%d %B %Y"
 nav_links:
   -
