@@ -115,7 +115,7 @@
   }
 
   pre {
-    font-size: .85em;
+    font-size: .8em;
     overflow-x: auto;
     padding: 1.25em 1.5em;
     margin-bottom: 1em;
@@ -125,7 +125,7 @@
     background-color: #141414;
   }
 
-  p {
+  p, li {
     code {
       color: $code-color;
       font-size: .85rem;
