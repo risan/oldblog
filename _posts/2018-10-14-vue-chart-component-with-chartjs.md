@@ -15,6 +15,21 @@ Last night I did some tinkering to integrate Chart.js within the existing Vue co
 
 You can check out the final working source code on [Github](https://github.com/risan/vue-chart-example). You can also visit the demo here: [risan.io/vue-chart-example](https://risan.io/vue-chart-example/).
 
+## Table of Contents
+
+* [Creating New Project](#creating-new-project)
+* [Getting Started with Chart.js](#getting-started-with-chartjs)
+  * [Plot a Line Chart](#plot-a-line-chart)
+  * [Configuring Our Line Chart](#configuring-our-line-chart)
+  * [Making it Prettier](#making-it-prettier)
+* [Integrating Chart.js into Vue](#integrating-chartjs-into-vue)
+  * [Setting Up the Vue Application](#setting-up-the-vue-application)
+  * [The Monthly Sales Chart Component](#the-monthly-sales-chart-component)
+  * [The Line Chart Component](#the-line-chart-component)
+  * [Put Back Chart Datasets and Options](#put-back-chart-datasets-and-options)
+* [Reactive Chart](#reactive-chart)
+* [Closing Thought](#closing-thought)
+
 ## Creating New Project
 
 On this tutorial, I will use [Vue CLI](https://cli.vuejs.org) version 3 to scaffold my project. But of course you can always use your own build system as long as it can handle the Vue [Single File Component](https://vuejs.org/v2/guide/single-file-components.html)—if not you have to slightly modify the component declaration by inlining the `<template>`'s content into your `template` property.
