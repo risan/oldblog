@@ -125,6 +125,10 @@
     background-color: #141414;
   }
 
+  code {
+    word-break: break-all;
+  }
+
   p, li {
     code {
       color: $code-color;
