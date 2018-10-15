@@ -820,7 +820,7 @@ const datasets = {
 };
 
 const options = {
-  // Emitted...
+  // Omitted...
 };
 
 export default {
@@ -914,7 +914,7 @@ export default {
   ...
 
   mounted() {
-    // Emitted...
+    // Omitted...
   },
 
   beforeDestroy () {
