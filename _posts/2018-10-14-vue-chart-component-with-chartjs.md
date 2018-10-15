@@ -5,7 +5,7 @@ tags: vue
 excerpt: Let's build a reusable and beautiful chart component for Vue.js using the Chart.js library.
 image_thumb: /img/2018-10-14-vue-chart-component-with-chartjs/featured-thumb.png
 image:
-  path: /img/2018-10-14-vue-chart-component-with-chartjs/og.jpg
+  path: /img/2018-10-14-vue-chart-component-with-chartjs/og.png
   width: 1200
   height: 720
 ---
