@@ -13,7 +13,7 @@ Chart.js is an amazing chart library for JavaScript. It's modern and performant;
 
 Last night I did some tinkering to integrate Chart.js within the existing Vue code base. So, how can we do that? If you want, there's actually a wrapper for Chart.js already available for Vue: [vue-chartjs](https://vue-chartjs.org). If you take a look at the `vue-chartjs` [source code](https://github.com/apertureless/vue-chartjs), it's actually pretty simple and straightforward. So let's try to build one ourself!
 
-You can check out the final working source code on [Github](https://github.com/risan/vue-chart-example). You can also visit the demo here: [risan.io/vue-chart-example/](https://risan.io/vue-chart-example/).
+You can check out the final working source code on [Github](https://github.com/risan/vue-chart-example). You can also visit the demo here: [risan.io/vue-chart-example](https://risan.io/vue-chart-example/).
 
 ## Creating New Project
 
