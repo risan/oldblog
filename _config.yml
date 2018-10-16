@@ -11,6 +11,7 @@ url: "https://risan.io"
 # Theme related settings
 header_title: risan.io
 header_description: A journal of a passionate coder
+google_analytics: "UA-27136969-12"
 date_format: "%d %B %Y"
 nav_links:
   -
