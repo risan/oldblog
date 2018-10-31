@@ -8,6 +8,8 @@ image:
   path: /img/2018-10-10-building-my-first-ios-game/og.jpg
   width: 1200
   height: 715
+redirect_to:
+  - https://bagja.net/blog/building-my-first-ios-game.html
 ---
 Sunday night two weeks ago, I had nothing better to do. So I started googling for some iOS tutorial and landed on this amazing [video tutorial](https://www.raywenderlich.com/5993-your-first-ios-app) by Ray Wenderlich. It's quite exciting and easy to follow for a total beginner like me. I delved into Swift documentation before and got bored easily. 😝
 

@@ -7,6 +7,8 @@ image:
   path: /img/2017-11-29-upgrade-ssh-key-to-ed25519/og.jpg
   width: 1200
   height: 839
+redirect_to:
+  - https://bagja.net/blog/upgrade-ssh-key-to-ed25519.html
 ---
 If you're a DevOps engineer or a web developer, there's a good chance that you're already familiar and using the SSH key authentication on a daily basis. Whether it's for logging into the remote server or when pushing your commit to the remote repository. It provides us with better security than the traditional password-based authentication.
 

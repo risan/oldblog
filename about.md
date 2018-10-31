@@ -6,6 +6,8 @@ image:
   path: /img/risan-og.jpg
   width: 1200
   height: 800
+redirect_to:
+  - https://bagja.net/about.html
 ---
 Hi, my name is Risan and I code for fun! Seriously.
 

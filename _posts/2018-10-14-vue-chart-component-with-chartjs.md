@@ -8,6 +8,8 @@ image:
   path: /img/2018-10-14-vue-chart-component-with-chartjs/og.png
   width: 1200
   height: 720
+redirect_to:
+  - https://bagja.net/blog/vue-chart-component-with-chartjs.html
 ---
 Chart.js is an amazing chart library for JavaScript. It's modern and performant; built on top of the HTML5 canvas. It includes 8 different chart types which super easy to extend and configure. On top of it all, the generated chart just looks beautiful.
 
