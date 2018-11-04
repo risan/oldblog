@@ -9,7 +9,7 @@ image:
   width: 1200
   height: 800
 redirect_to:
-  - https://bagja.net/blog/set-authorization-header-with-apollo-client.html
+  - https://bagja.net/tips/set-authorization-header-with-apollo-client.html
 ---
 A GraphQL API often requires us to provide an authorization header to authenticate the request. How can we provide this authorization header using the popular [Apollo Client](https://www.apollographql.com/client) library?
 

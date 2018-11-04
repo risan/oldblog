@@ -8,7 +8,7 @@ image:
   width: 1200
   height: 800
 redirect_to:
-  - https://bagja.net/blog/react-component-with-dot-notation.html
+  - https://bagja.net/tips/react-component-with-dot-notation.html
 ---
 This is my answer to someone's question on [StackOverflow](https://stackoverflow.com/questions/49256472/react-how-to-extend-a-component-that-has-child-components-and-keep-them/49258038#answer-49258038). How can we define a React component that is accessible through the dot notation?
 
