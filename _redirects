@@ -1,2 +1,15 @@
-/ https://bagja.net 302
-/new-blog.html https://bagja.net/blog/new-blog.html 302
+/ https://bagja.net
+/about.html https://bagja.net/about.html
+
+/new-blog.html https://bagja.net/blog/new-blog.html
+/upgrade-ssh-key-to-ed25519.html https://bagja.net/blog/upgrade-ssh-key-to-ed25519.html
+/i-create-my-own-static-site-generator.html https://bagja.net/blog/i-create-my-own-static-site-generator.html
+/installing-sql-server-on-macos.html https://bagja.net/blog/installing-sql-server-on-macos.html
+/track-user-location-google-maps.html https://bagja.net/blog/track-user-location-google-maps.html
+/seeding-table-with-relationships-in-laravel.html https://bagja.net/blog/seeding-table-with-relationships-in-laravel.html
+/python-notes-from-intro-to-machine-learning.html https://bagja.net/blog/python-notes-from-intro-to-machine-learning.html
+/building-my-first-ios-game.html https://bagja.net/blog/building-my-first-ios-game.html
+/vue-chart-component-with-chartjs.html https://bagja.net/blog/vue-chart-component-with-chartjs.html
+
+/react-component-with-dot-notation.html https://bagja.net/tips/react-component-with-dot-notation.html
+/set-authorization-header-with-apollo-client.html https://bagja.net/tips/set-authorization-header-with-apollo-client.html
