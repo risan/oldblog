@@ -7,8 +7,6 @@ image:
   path: /img/2018-03-16-track-user-location-google-maps/og.jpg
   width: 1200
   height: 800
-redirect_to:
-  - https://bagja.net/blog/track-user-location-google-maps.html
 ---
 This is actually my answer to someone's question on [PHP Indonesia](https://www.facebook.com/groups/35688476100/) Facebook group. How can we track user's location continuously using the Geolocation API and display it on Google Maps?
 

@@ -8,8 +8,6 @@ image:
   path: /img/python-logo-og.png
   width: 1200
   height: 800
-redirect_to:
-  - https://bagja.net/blog/python-notes-from-intro-to-machine-learning.html
 ---
 I rarely use Python. I only have one repository at Github that is written in Python: [iris-flower-classifier](https://github.com/risan/iris-flower-classifier). And it was written two years ago!
 

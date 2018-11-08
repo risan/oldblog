@@ -7,8 +7,6 @@ image:
   path: /img/2018-02-11-i-create-my-own-static-site-generator/og.jpg
   width: 1200
   height: 800
-redirect_to:
-  - https://bagja.net/blog/i-create-my-own-static-site-generator.html
 ---
 Instead of writing a blog post more often, I decided to redesign my four months old blog, ditched Jekyll and built a custom static site generator. The conversation went like this:
 

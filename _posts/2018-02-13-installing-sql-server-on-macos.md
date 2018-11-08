@@ -7,8 +7,6 @@ image:
   path: /img/2018-02-13-installing-sql-server-on-macos/og.jpg
   width: 1200
   height: 782
-redirect_to:
-  - https://bagja.net/blog/installing-sql-server-on-macos.html
 ---
 It's a bit inconvenience when working on a project that uses the Microsoft SQL Server while your dev machine is either Linux or macOS. I always ended up setting up and using a remote test database.
 
