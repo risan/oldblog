@@ -6,7 +6,7 @@ description: >-
   who writes codes for fun. Seriously.
 permalink: :title:output_ext
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://risan.io"
+url: "https://risan.io"
 
 # Theme related settings
 header_title: risan.io
