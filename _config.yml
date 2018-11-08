@@ -42,6 +42,8 @@ liquid:
   error_mode: strict
 sass:
   style: compressed
+include:
+  - _redirects
 exclude:
   - CNAME
   - Gemfile
